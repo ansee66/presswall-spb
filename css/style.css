@@ -1,0 +1,11 @@
+@import "blocks/global.css";
+@import "blocks/btn.css";
+@import "blocks/table.css";
+
+@import "blocks/header.css";
+@import "blocks/hero.css";
+@import "blocks/construction.css";
+@import "blocks/delivery.css";
+@import "blocks/services.css";
+@import "blocks/feedback.css";
+@import "blocks/footer.css";

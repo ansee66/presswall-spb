@@ -1,0 +1,46 @@
+.hero {
+    background-color: var(--dark);
+    color: var(--white);
+}
+
+.hero__title {
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.hero__btn {
+    min-width: 290px;
+    margin: 2rem 0 0;
+}
+
+@media (max-width: 991px) {
+    .hero__title {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .hero {
+        padding-top: 2rem;
+    }
+
+    .hero__title {
+        margin-bottom: 1rem;
+    }
+
+    .hero__btn {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        padding-top: 1rem;
+    }
+
+    .hero__btn {
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+}

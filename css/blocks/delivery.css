@@ -1,0 +1,15 @@
+.delivery {
+    max-width: 800px;
+    text-align: center;
+}
+
+.delivery__link {
+    font-weight: bold;
+    color: var(--black);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.delivery__link:hover {
+    color: var(--blue-green);
+}
